@@ -1,6 +1,6 @@
 {
- "homepage": "https://hyfarid.github.io",
- "name": "profile",
+ "homepage": "http://hyfarid.github.io/",
+ "name": "hyfarid.github.io",
  "version": "0.1.0",
  "private": true,
  "dependencies": {
