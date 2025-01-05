@@ -5,8 +5,8 @@ import SocialLinks from './SocialLinks';
 function Main() {
   return (
     <main className="main-section">
-      <h1 color='white'>Welcome to My Resume</h1>
-      <p color='white'>This is my awesome website!</p>
+      <h1 color='white'>Hossein Younesian Farid</h1>
+      <p color='white'>.NET Developer</p>
       <Profile />
       <SocialLinks />
     </main>

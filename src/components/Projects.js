@@ -1,12 +1,12 @@
 import { Container } from '@mui/material';
 import React from 'react';
-import './Projects.css'
+import '../css/Projects.css'
 
 function Projects() {
   return (
     <div className="projects">
 
-        <p>Check out my amazing projects!</p>
+        <p>Sample projects!</p>
       
     </div>
   );

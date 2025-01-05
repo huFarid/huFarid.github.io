@@ -1,6 +1,6 @@
 import React from 'react';
-import './Skills.css'; // Import the CSS file
-
+import '../css/Skills.css'; 
+ 
 const skillsData = [
   { name: 'Python', proficiency: 90 },
   { name: 'C#', proficiency: 80 },
@@ -10,9 +10,9 @@ const skillsData = [
 ];
 
 const getColor = (proficiency) => {
-  if (proficiency >= 80) return '#4CAF50';  // Green for high proficiency
-  if (proficiency >= 50) return '#FFEB3B';  // Yellow for medium proficiency
-  return '#F44336';  // Red for low proficiency
+  if (proficiency >= 80) return '#4CAF50';  
+  if (proficiency >= 50) return '#FFEB3B';  
+  return '#F44336';  
 };
 
 const SkillBar = ({ name, proficiency }) => {
