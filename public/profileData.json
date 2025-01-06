@@ -1,0 +1,144 @@
+{
+  "main": {
+    "name": "Hossein Younesian Farid",
+    "occupation": ".NET Developer",
+    "description": "",
+    "image": "profilepic.png",
+    "bio": "A software developer with passion for learning new technologies",
+    "contactmessage": "",
+    "email": "younesianhossein@gmail.com",
+    "phone": "+45 50352448",
+    "address": {
+      "street": "Skovbrynet 2",
+      "city": "Lyngby",
+      "state": "Copenhagen",
+      "zip": "2800"
+    },
+    "website": "http://hufarid.github.io/",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "",
+        "url": "",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "google-plus",
+        "url": "",
+        "className": "fa fa-google-plus"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/hossein-younesian-farid-a0a4088b/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "",
+        "url": "",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/huFarid",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "skype",
+        "url": "",
+        "className": "fa fa-skype"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "",
+    "education": [
+      {
+        "school": "Technical University of Denmark",
+        "degree": "PhD in GeoEnergy Engineering",
+        "graduated": "Nov 2021 - Oct 2024",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Technical University of Denmark",
+        "title": "PhD in GeoEnergy Engineering",
+        "years": "Nov 2021 - Oct 2024",
+        "description": ""
+      }
+    ],
+    "skills": [
+      {
+        "name": "C#",
+        "level": "90%"
+      },
+      {
+        "name": "Python",
+        "level": "90%"
+      },
+      {
+        "name": "ASP.NET Core",
+        "level": "90%"
+      },
+      {
+        "name": "WPF",
+        "level": "80%"
+      },
+      {
+        "name": "Git",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5 & CSS",
+        "level": "90%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "60%"
+      },
+      {
+        "name": "SQL Server",
+        "level": "60%"
+      },
+      {
+        "name": "ASP.NET Web API",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "",
+        "category": "",
+        "image": "",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "",
+        "url": "/"
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "",
+        "url": "/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "",
+        "user": ""
+      }
+    ]
+  }
+}
