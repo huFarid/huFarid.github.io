@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 import HosseinImgUrl from '../assets/images/Hossein.jpg';
+
 
 function Profile() {
   return (

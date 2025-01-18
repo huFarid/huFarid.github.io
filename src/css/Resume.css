@@ -1,0 +1,113 @@
+/* Overall Resume section */
+#Resume {
+    background: #fff;
+    padding: 60px 0;
+    position: relative;
+}
+
+/* Row styling */
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+/* Column styling */
+.three.columns {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.nine.columns {
+    width: 75%;
+}
+
+/* Section styling */
+.Education, .Work, .Skills {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+/* Text styling */
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+p {
+    margin: 0 0 12px 0;
+    line-height: 24px;
+}
+
+/* Skills section specific styling */
+.skills-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.skill-bar-container {
+    margin-bottom: 20px;
+}
+
+.skill-bar-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.skill-bar-background {
+    height: 20px;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    background-color: #11ABB0;
+    border-radius: 10px;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .three.columns,
+    .nine.columns {
+        width: 100%;
+        padding: 0;
+    }
+
+    .three.columns {
+        margin-bottom: 20px;
+    }
+
+    .skills-container {
+        width: 100%;
+    }
+}
+
+.skill-item {
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    width: 70%;
+    height: 15px;
+    background-color: #eee;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+}
+  

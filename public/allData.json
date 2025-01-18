@@ -66,9 +66,9 @@
     ],
     "work": [
       {
-        "company": "Technical University of Denmark",
-        "title": "PhD in GeoEnergy Engineering",
-        "years": "Nov 2021 - Oct 2024",
+        "company": "MAPSA Technology Center",
+        "title": "Technical Software Developer",
+        "years": "Nov 2019 - Oct 2021",
         "description": ""
       }
     ],
@@ -79,19 +79,23 @@
       },
       {
         "name": "Python",
-        "level": "90%"
+        "level": "80%"
       },
       {
         "name": "ASP.NET Core",
-        "level": "90%"
+        "level": "70%"
       },
       {
         "name": "WPF",
         "level": "80%"
       },
       {
+        "name": "ASP.NET Web API",
+        "level": "40%"
+      },
+      {
         "name": "Git",
-        "level": "90%"
+        "level": "80%"
       },
       {
         "name": "HTML5 & CSS",
@@ -99,16 +103,13 @@
       },
       {
         "name": "MongoDB",
-        "level": "60%"
+        "level": "20%"
       },
       {
         "name": "SQL Server",
-        "level": "60%"
-      },
-      {
-        "name": "ASP.NET Web API",
-        "level": "80%"
+        "level": "40%"
       }
+     
     ]
   },
   "portfolio": {
