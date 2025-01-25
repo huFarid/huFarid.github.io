@@ -12,7 +12,6 @@ const App = () => {
 const opacity = useScrollOpacity();
 const {data:allData,isLoading, error } = useFetchData("/allData.json");
 
-
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
