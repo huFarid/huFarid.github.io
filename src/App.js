@@ -18,13 +18,21 @@ const {data:allData,isLoading, error } = useFetchData("/allData.json");
   return (
     <div className="App">
       <Header />
-      <section className="firstPage-container">
+      <section className="firstPage-container" id="home">
+        <div >
         <NameOverlay opacity={opacity} />
+
+        </div>
       </section>
 
-      <section className='second-page'>
+      <section className='second-page' >
+        
+        <div id="about">
         <Main />
+        </div>
+        <div id="resume">
         <Resume data={allData.resume} />
+        </div>
       </section>
     </div>
   );
