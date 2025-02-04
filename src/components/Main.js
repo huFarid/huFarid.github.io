@@ -1,16 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Profile from './Profile';
 import SocialLinks from './SocialLinks';
+import '../css/Main.css'
 
-function Main() {
-  return (
-    <main className="main-section">
-      <h1 color='white'>Hossein Younesian Farid</h1>
-      <p color='white'>.NET Developer</p>
-      <Profile />
-      <SocialLinks />
-    </main>
-  );
+
+
+class Main extends Component {
+
+  render() {
+
+    return (
+      <main className="main-section">
+
+        <Profile data={this.props.data} />
+
+      </main>
+
+    )
+  }
+
 }
 
 export default Main;

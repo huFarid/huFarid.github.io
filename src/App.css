@@ -37,18 +37,7 @@
 }
 
 
-/* Main section */
-.main-section {
-  text-align: center;
-  padding: 50px;
-  background: rgba(0, 0, 0, 0.5); /* Darkened background for text visibility */
-  border-radius: 10px;
-}
 
-.main-section h1, 
-.main-section p {
-  color: white;
-}
 /* Profile Picture */
 .profile-picture {
   width: 150px;

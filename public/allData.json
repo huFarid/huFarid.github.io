@@ -4,7 +4,7 @@
     "occupation": ".NET Developer",
     "description": "",
     "image": "profilepic.png",
-    "bio": "A software developer with passion for learning new technologies",
+    "bio": "Experienced in the .NET ecosystem with a strong passion for learning new technologies. Committed to writing simple, self-explanatory, and maintainable code. Enthusiastic about contributing to collaborative projects.",
     "contactmessage": "",
     "email": "younesianhossein@gmail.com",
     "phone": "+45 50352448",
@@ -12,6 +12,7 @@
       "street": "Skovbrynet 2",
       "city": "Lyngby",
       "state": "Copenhagen",
+      "country": "Denmark",
       "zip": "2800"
     },
     "website": "http://hufarid.github.io/",

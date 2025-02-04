@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import '../css/Resume.css'; 
+import '../css/Resume.css';
 
 class Resume extends Component {
   render() {
-    // Add console.log to debug the incoming data
+
     console.log("Resume props:", this.props.data);
 
     if (!this.props.data) {
@@ -14,7 +14,7 @@ class Resume extends Component {
 
     // Adding chekcs for each section
     const educationList = education?.map(education => (
-      <div key={education.school}> 
+      <div key={education.school}>
         <h1>{education.school}</h1>
         <p>{education.degree}</p>
         <p>{education.graduated}</p>
@@ -34,16 +34,16 @@ class Resume extends Component {
     const skillsList = skills?.map(skill => {
       // Removing the '%' to convert the level to number
       const levelValue = parseInt(skill.level.replace('%', ''));
-      
+
       return (
         <div key={skill.name} className="skill-item">
           <h1>{skill.name}</h1>
           <div className="skill-bar">
-            <div 
+            <div
               className="skill-level"
               style={{
                 width: `${levelValue}%`,
-                backgroundColor: `rgba(46, 204, 113, ${levelValue/100})`
+                backgroundColor: `rgba(46, 204, 113, ${levelValue / 100})`
               }}
             ></div>
           </div>
